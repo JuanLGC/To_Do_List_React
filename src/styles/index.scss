@@ -1,13 +1,36 @@
 @import "~bootstrap/scss/bootstrap.scss";
+body {
+    background-color: #fcefea;
+}
+ h1 {
+     font-family: 'Lemonada', cursive;
+     color: #ec7474
+ }
+input{
 
-/* 
+}
+.list-body {
+    background-color: #fff9f7;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 0px rgb(133, 133, 133);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+li {
+    border: solid 1px gray;
+    background-color: #ffffff;
+    display: flex;
+}
 
-*/
+span {
+    display: none;
+    color: red;
+}
+
+
+li:hover  span {
+    display: block;
+}
+
+span:hover {
+    font-size: 1.2rem;
+}
